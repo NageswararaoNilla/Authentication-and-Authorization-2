@@ -30,8 +30,8 @@
   align-self: flex-end;
   flex: 1;
   list-style-type: none;
-  margin-top: 0;
-  margin-bottom: 0;
+  /* margin-top: 0;
+  margin-bottom: 0; */
 }
 
 @media screen and (max-width: 767px) {
@@ -59,6 +59,8 @@
   border: none;
   border-radius: 4px;
   margin-left: 14px;
+  outline: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
@@ -71,6 +73,8 @@
   border: none;
   padding: 0px;
   background: transparent;
+  outline: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {

@@ -120,6 +120,8 @@
   background-color: #0b69ff;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
+  outline: none;
 }
 
 .error-message {
